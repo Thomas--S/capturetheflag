@@ -40,6 +40,4 @@ if minetest.get_modpath("ctf") then
 	dofile(modpath .. "/maps_catalog.lua")
 
 	ctf_match.register_on_build_time_end(ctf_map.remove_middle_barrier)
-else
-	dofile(modpath .. "/map_maker.lua")
 end

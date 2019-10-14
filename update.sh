@@ -6,11 +6,11 @@ cd mods/crafting
 git pull origin master
 
 # Update maps submodule
-cd ../ctf/ctf_map/maps
+cd ../ctf/ctf_map/ctf_map_core/maps
 git pull origin master
 
 # Run post-processing actions for maps
-cd ../../../..
+cd ../../../../..
 ./setup_maps.sh
 
 # Run build.sh
