@@ -17,7 +17,7 @@ end
 
 local colors = {"red", "blue"}
 for _, chest_color in pairs(colors) do
-	minetest.register_node("ctf_map:chest_" .. chest_color, {
+	minetest.register_node(":ctf_map:chest_" .. chest_color, {
 		description = "Chest",
 		tiles = {
 			"default_chest_top_" .. chest_color .. ".png",

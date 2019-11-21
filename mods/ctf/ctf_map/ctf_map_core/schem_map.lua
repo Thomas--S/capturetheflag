@@ -27,7 +27,7 @@ minetest.register_alias_force("default:stone_with_gold", "default:stone")
 
 
 local max_r    = 120
-ctf_map.mapdir = minetest.get_modpath("ctf_map") .. "/maps/"
+ctf_map.mapdir = minetest.get_modpath("ctf_map_core") .. "/maps/"
 ctf_map.map    = nil
 
 -- Modify server status message to include map info

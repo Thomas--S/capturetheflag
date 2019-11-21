@@ -26,7 +26,7 @@ function ctf_map.can_cross(player)
 	return false
 end
 
-local modpath = minetest.get_modpath("ctf_map")
+local modpath = minetest.get_modpath("ctf_map_core")
 dofile(modpath .. "/nodes.lua")
 dofile(modpath .. "/emerge.lua")
 dofile(modpath .. "/barrier.lua")
